@@ -1,0 +1,7 @@
+/Users/allenn/Projects/pinewood_mvc/pinewood.api/obj/Debug/net8.0/pinewood.api.csproj.AssemblyReference.cache
+/Users/allenn/Projects/pinewood_mvc/pinewood.api/obj/Debug/net8.0/pinewood.api.GeneratedMSBuildEditorConfig.editorconfig
+/Users/allenn/Projects/pinewood_mvc/pinewood.api/obj/Debug/net8.0/pinewood.api.AssemblyInfoInputs.cache
+/Users/allenn/Projects/pinewood_mvc/pinewood.api/obj/Debug/net8.0/pinewood.api.AssemblyInfo.cs
+/Users/allenn/Projects/pinewood_mvc/pinewood.api/obj/Debug/net8.0/pinewood.api.csproj.CoreCompileInputs.cache
+/Users/allenn/Projects/pinewood_mvc/pinewood.api/obj/Debug/net8.0/pinewood.api.MvcApplicationPartsAssemblyInfo.cs
+/Users/allenn/Projects/pinewood_mvc/pinewood.api/obj/Debug/net8.0/pinewood.api.MvcApplicationPartsAssemblyInfo.cache

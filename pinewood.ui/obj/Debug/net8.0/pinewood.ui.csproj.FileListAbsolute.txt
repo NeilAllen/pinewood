@@ -1,0 +1,7 @@
+/Users/allenn/Projects/pinewood_mvc/pinewood.ui/obj/Debug/net8.0/pinewood.ui.GeneratedMSBuildEditorConfig.editorconfig
+/Users/allenn/Projects/pinewood_mvc/pinewood.ui/obj/Debug/net8.0/pinewood.ui.AssemblyInfoInputs.cache
+/Users/allenn/Projects/pinewood_mvc/pinewood.ui/obj/Debug/net8.0/pinewood.ui.AssemblyInfo.cs
+/Users/allenn/Projects/pinewood_mvc/pinewood.ui/obj/Debug/net8.0/pinewood.ui.csproj.CoreCompileInputs.cache
+/Users/allenn/Projects/pinewood_mvc/pinewood.ui/obj/Debug/net8.0/pinewood.ui.MvcApplicationPartsAssemblyInfo.cache
+/Users/allenn/Projects/pinewood_mvc/pinewood.ui/obj/Debug/net8.0/pinewood.ui.RazorAssemblyInfo.cache
+/Users/allenn/Projects/pinewood_mvc/pinewood.ui/obj/Debug/net8.0/pinewood.ui.RazorAssemblyInfo.cs

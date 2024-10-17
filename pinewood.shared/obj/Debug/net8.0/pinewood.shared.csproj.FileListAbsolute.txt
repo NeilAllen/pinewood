@@ -1,0 +1,4 @@
+/Users/allenn/Projects/pinewood_mvc/pinewood.shared/obj/Debug/net8.0/pinewood.shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/allenn/Projects/pinewood_mvc/pinewood.shared/obj/Debug/net8.0/pinewood.shared.AssemblyInfoInputs.cache
+/Users/allenn/Projects/pinewood_mvc/pinewood.shared/obj/Debug/net8.0/pinewood.shared.AssemblyInfo.cs
+/Users/allenn/Projects/pinewood_mvc/pinewood.shared/obj/Debug/net8.0/pinewood.shared.csproj.CoreCompileInputs.cache
