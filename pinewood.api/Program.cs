@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using pinewood.api.Customers;
 
 var builder = WebApplication.CreateBuilder(args);
-//builder.Services.AddDbContext<CustomerDb>(opt => opt.UseInMemoryDatabase("Customers"));
 builder.Services.AddDbContext<CustomerDb>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("CustomerDbContext")));
 

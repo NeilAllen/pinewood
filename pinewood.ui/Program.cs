@@ -5,7 +5,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-
 builder.Services.AddHttpClient<ICustomerDataService, CustomerDataService>(
     client => {
         client.BaseAddress = new Uri("http://localhost:5105");
@@ -19,11 +18,7 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Error");
 }
 app.UseStaticFiles();
-
 app.UseRouting();
-
-//app.UseAuthorization();
-
 app.MapRazorPages();
 
 app.Run();

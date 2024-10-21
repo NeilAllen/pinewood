@@ -1,5 +1,4 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace pinewood.shared.Models
 {
@@ -15,5 +14,12 @@ namespace pinewood.shared.Models
 		public string? PostalAddress { get; set; } = string.Empty;
 		public string? PostalCode { get; set; } = string.Empty;
 		public DateTime? CreatedAt { get; set; } = default;
+		/*
+		 other potential columns
+		Active flag
+		ModifiedAt
+		Balance
+		etc...
+		 */
 	}
 }
