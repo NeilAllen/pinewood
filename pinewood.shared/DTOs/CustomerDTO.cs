@@ -1,5 +1,5 @@
 ﻿using System;
-using pinewood.api.Models;
+using pinewood.shared.Models;
 
 namespace pinewood.shared.Dtos
 {
@@ -11,15 +11,17 @@ namespace pinewood.shared.Dtos
         public string? TelephoneNumber { get; set; } = default;
         public string? PostalAddress { get; set; } = default;
         public string? PostalCode { get; set; } = default;
+        public DateTime? CustomerSince { get; set; } = default;
 
         public CustomerDTO() { }
-        public CustomerDTO(Customer customer) => (Id, Name, EmailAddress, PostalAddress, PostalCode, TelephoneNumber) = (
+        public CustomerDTO(Customer customer) => (Id, Name, EmailAddress, PostalAddress, PostalCode, TelephoneNumber, CustomerSince) = (
             customer.Id,
             customer.Name,
             customer.EmailAddress,
             customer.PostalAddress,
             customer.PostalCode,
-            customer.TelephoneNumber);
+            customer.TelephoneNumber,
+            customer.CreatedAt);
     }
 }
 

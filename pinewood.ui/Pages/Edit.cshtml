@@ -1,0 +1,46 @@
+﻿@page "{Id:int}"
+@model Edit
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit Customer - @Model.Customer.Name</h2>
+<form method="post">
+    <div asp-validation-summary="All"></div>
+    <input asp-for="Customer.Id" type="hidden" />
+
+    <div class="row">
+        <div class="col-sm-2">Name: </div><div class="col-sm-8">
+            <input asp-for="Customer.Name" />
+            <span asp-validation-for="Customer.Name"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">EMail: </div><div class="col-sm-8">
+            <input asp-for="Customer.EmailAddress" />
+            <span asp-validation-for="Customer.EmailAddress"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">Address: </div><div class="col-sm-8">
+            <input asp-for="Customer.PostalAddress" />
+            <span asp-validation-for="Customer.PostalAddress"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">Post Code: </div><div class="col-sm-8">
+            <input asp-for="Customer.PostalCode" />
+            <span asp-validation-for="Customer.PostalCode"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">Telephone: </div><div class="col-sm-8">
+            <input asp-for="Customer.TelephoneNumber" />
+            <span asp-validation-for="Customer.TelephoneNumber"></span>
+        </div>
+    </div>
+
+    <div>
+        <button type="submit">Save</button>
+    </div>
+</form>

@@ -14,6 +14,6 @@ namespace pinewood.shared.Models
 		public string? TelephoneNumber { get; set; } = string.Empty;
 		public string? PostalAddress { get; set; } = string.Empty;
 		public string? PostalCode { get; set; } = string.Empty;
+		public DateTime? CreatedAt { get; set; } = default;
 	}
 }
-

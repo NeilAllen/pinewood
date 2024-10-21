@@ -21,6 +21,7 @@ namespace pinewood.api
                     PostalAddress = "First Customer PostalAddress",
                     PostalCode = "First Customer PostalCode",
                     TelephoneNumber = "First Customer TelephoneNumber",
+                    CreatedAt = DateTime.Now
                 },
                 new Customer
                 {
@@ -30,6 +31,7 @@ namespace pinewood.api
                     PostalAddress = "Second Customer PostalAddress",
                     PostalCode = "Second Customer PostalCode",
                     TelephoneNumber = "Second Customer TelephoneNumber",
+                    CreatedAt = DateTime.Now
                 }
             );
         }

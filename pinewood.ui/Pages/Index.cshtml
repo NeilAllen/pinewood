@@ -1,11 +1,38 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Customer List";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="col-md-12">
+    <form method="post">
+        <div class="table">
+            <!-- Table header section -->
+            <div class="row">
+                <div class="col-md-1">ID</div>
+                <div class="col-md-7">Name</div>
+                <div class="col-md-2">Customer Since</div>
+                <div class="col-md-2">Action</div>
+            </div>
+            <div>
+                @foreach (var customer in Model.Customers)
+                {
+                    <div class="row">
+                        <div class="col-md-1">@customer.Id</div>
+                        <div class="col-md-7">@customer.Name</div>
+                        <div class="col-md-2">@customer.CustomerSince.Value.ToString("dd-MMM-yyyy")</div>
+                        <div class="col-md-2">
+                            <a asp-page="./Edit" asp-route-id="@customer.Id">edit</a>
+                            <button type="submit" asp-page-handler="delete"
+                                    asp-route-id="@customer.Id">
+                                delete
+                            </button>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <a asp-page="./Create">Add New Customer</a>
+    </form>
 </div>
 

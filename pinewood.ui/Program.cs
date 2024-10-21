@@ -1,9 +1,15 @@
 ﻿using pinewood.ui.services;
+using pinewood.ui.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddHttpClient<ICustomerDataService, CustomerDataService>(
+    client => {
+        client.BaseAddress = new Uri("http://localhost:5105");
+    });
 
 var app = builder.Build();
 
@@ -17,11 +23,6 @@ app.UseStaticFiles();
 app.UseRouting();
 
 //app.UseAuthorization();
-
-builder.Services.AddHttpClient<ICustomerDataService, CustomerDataService>(
-    client => {
-        client.BaseAddress = new Uri("http://localhost:5105");
-    });
 
 app.MapRazorPages();
 

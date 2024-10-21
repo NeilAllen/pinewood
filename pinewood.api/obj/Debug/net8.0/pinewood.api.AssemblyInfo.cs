@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pinewood.api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0516c6a39f4ec1226356cce8578cf2945b3a145")]
 [assembly: System.Reflection.AssemblyProductAttribute("pinewood.api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pinewood.api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

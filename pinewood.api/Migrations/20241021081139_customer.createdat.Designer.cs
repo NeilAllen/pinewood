@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using pinewood.api;
 
@@ -10,9 +11,11 @@ using pinewood.api;
 namespace pinewood.api.Migrations
 {
     [DbContext(typeof(CustomerDb))]
-    partial class CustomerDbModelSnapshot : ModelSnapshot
+    [Migration("20241021081139_customer.createdat")]
+    partial class customercreatedat
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.10");

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
-using pinewood.api.Dtos;
-using pinewood.api.Models;
+using pinewood.shared.Dtos;
+using pinewood.shared.Models;
 
 namespace pinewood.api.Customers
 {
@@ -46,7 +46,8 @@ namespace pinewood.api.Customers
                 EmailAddress = customerDTO.EmailAddress,
                 PostalAddress = customerDTO.PostalAddress,
                 PostalCode = customerDTO.PostalCode,
-                TelephoneNumber = customerDTO.TelephoneNumber
+                TelephoneNumber = customerDTO.TelephoneNumber,
+                CreatedAt = DateTime.Now
             };
 
             db.Customers.Add(customer);

@@ -1,4 +1,11 @@
+/Users/allenn/Projects/pinewood_mvc/pinewood.shared/bin/Debug/net8.0/pinewood.shared.deps.json
+/Users/allenn/Projects/pinewood_mvc/pinewood.shared/bin/Debug/net8.0/pinewood.shared.dll
+/Users/allenn/Projects/pinewood_mvc/pinewood.shared/bin/Debug/net8.0/pinewood.shared.pdb
 /Users/allenn/Projects/pinewood_mvc/pinewood.shared/obj/Debug/net8.0/pinewood.shared.GeneratedMSBuildEditorConfig.editorconfig
 /Users/allenn/Projects/pinewood_mvc/pinewood.shared/obj/Debug/net8.0/pinewood.shared.AssemblyInfoInputs.cache
 /Users/allenn/Projects/pinewood_mvc/pinewood.shared/obj/Debug/net8.0/pinewood.shared.AssemblyInfo.cs
 /Users/allenn/Projects/pinewood_mvc/pinewood.shared/obj/Debug/net8.0/pinewood.shared.csproj.CoreCompileInputs.cache
+/Users/allenn/Projects/pinewood_mvc/pinewood.shared/obj/Debug/net8.0/pinewood.shared.dll
+/Users/allenn/Projects/pinewood_mvc/pinewood.shared/obj/Debug/net8.0/refint/pinewood.shared.dll
+/Users/allenn/Projects/pinewood_mvc/pinewood.shared/obj/Debug/net8.0/pinewood.shared.pdb
+/Users/allenn/Projects/pinewood_mvc/pinewood.shared/obj/Debug/net8.0/ref/pinewood.shared.dll
